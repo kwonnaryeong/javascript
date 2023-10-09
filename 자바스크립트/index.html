@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<title>My shop</title>
+	<meta charset="utf-8">
+    <style>
+        html,body {height: 100%;
+        }
+        header {background-color: rgb(255, 255, 255);
+        }
+        aside {background-color: rgb(237, 248, 254); 
+        }
+        nav {background-color: rgb(254, 241, 255); 
+        }
+        footer {background-color: rgb(255, 255, 255);
+        }
+        </style>
+</head>
+<body>
+	<header> 
+        <h1> <img src="shop.jpg" width="50" height="50"/><a href="index.html">
+            Web Shop</a></h1> 
+    </header> 
+    <nav>
+    <ul>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About Us</a></li> 
+        <li><a href="contacts.html">Contacts</a></li> 
+    </nav> 
+    <aside id="left"> 
+        <h4>카테고리</h4> 
+        <ul> 
+            <li><a target="iframe1" href="clothing.html">의류</a></li> 
+            <li><a target="iframe1" href="music.html">음악</a></li> 
+            <li><a target="iframe1" href="movie.html">영화</a></li> 
+            <li><a target="iframe1" href="furniture.html">기구/인테리어</a></li>  
+        </ul> 
+    </aside>
+    <section>
+        <section id="main"> 
+            <article id="article1"><iframe name="iframe1" src="clothing.html" width="400" height="300" seamless></iframe> 
+        </article>
+        <article id="article1"><iframe name="iframe1" src="music.html" width="400" height="300" seamless></iframe> 
+        </article>
+        <article id="article1"><iframe name="iframe1" src="movie.html" width="400" height="300" seamless></iframe> 
+        </article>
+        <article id="article1"><iframe name="iframe1" src="furniture.html" width="400" height="300" seamless></iframe> 
+        </article>
+    </section>
+    <aside id="right"> 
+        <h4>Shopping Cart</h4>
+        <h4>Log in</h4>
+        <form name="input" action="login.jsp" method="get"> 
+            아이디: <input type="text" name="user"><br /> 
+            패스워드: <input type="password" name="pass"><br/><br/>
+            <input type="submit" value="로그인"> 
+            <input type="reset" value="초기화"> 
+            <h4>상품문의</h4>
+            <h5>구매한 상품의 취소/반품은 마이쿠팡 구매내역에서 신청 가능합니다.
+                가격, 판매자, 교환/환불 및 배송 등 해당 상품 자체와 관련 없는 문의는 고객센터 내 1:1 문의하기를 이용해주세요.</h5>
+                <input type="reset" value="문의하기">
+        </form>
+        </aside>
+        <footer>
+            <br/>   회사소개   |   쇼핑가이드   |   개인정보보호정책   |   이용약관
+        </footer>
+</body>
+</html>
